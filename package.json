@@ -1,0 +1,26 @@
+{
+  "name": "listingslab-library",
+  "version": "1.0.0",
+  "description": "Listingslab Brand Library",
+  "main": "./functions/index.js",
+  "dependencies": {
+    "react": "^16.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "fb-deploy": "clear && firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/listingslab/listingslab.com.git"
+  },
+  "author": "listingslab",
+  "license": "OSL-3.0"
+}
